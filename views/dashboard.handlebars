@@ -1,0 +1,22 @@
+{{#if posts.length}}
+<section>
+    <div class="row align-items-center">
+        <h2>Hello, {{username}}!</h2>
+        <p>Please click title to edit.</p>
+    </div>
+    <br>
+    {{#each posts as |post|}}
+    <input type="hidden" name="post-id" value="{{post.id}}"/>
+    <div class="card">
+        <div class="card-header">
+            <h4><a class="link" href="/dashboard/edit/{{id}}">{{title}}</a></h4>
+        </div>
+        <button class="btn btn-danger" id="del-post-btn"><i class="bi bi-trash"></i>Delete Post</button>
+    </div>
+    {{/each}}
+
+</section>
+{{/if}}
+<button type="submit" class="btn"><a href="/dashboard/new"><i class="bi bi-plus-square"></i>Add new post</a></button>
+
+<script src="js/deletepost.js"></script>
