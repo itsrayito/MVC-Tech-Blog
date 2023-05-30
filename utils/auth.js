@@ -6,4 +6,4 @@ const withAuth = (req, res, next) => {
     }
 };
 
-moduke.exports = withAuth;
+module.exports = withAuth;
