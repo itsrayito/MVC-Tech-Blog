@@ -33,7 +33,7 @@ router.get('/', async (req, res) => {
         console.log(posts)
 
         // this will allow it to respond with template to render along with date retrieved
-        res.sender('homepage',
+        res.render('homepage',
         { posts,
         loggedIn: req.session.loggedIn,
         username: req.session.username,
@@ -91,7 +91,7 @@ router.get('/login', (req, res) => {
 // this will allow the user to signup
 
 router.get('/signup', async (req, res) => {
-    res.sender('signup');
+    res.render('signup');
 })
 
 module.exports = router;
