@@ -22,7 +22,7 @@ The user then will be able to start the app by typing the command `npm start` <b
 Node.js, Handlebars.js, Bootstrap, CSS, Sequelize, MySQL, Express.js, HTML <br>
 
 # Screenshot
-
+![Alt text](Assets/mvcapp.png) <br>
 # Contributions
 At this moment, there is no need for contributuons for this application.<br>
 
@@ -38,5 +38,5 @@ This application was made entirely by Rayito Aguirre <br><br>
 Lecture videos, class sessions, and helpful websites on MVC provided by Rice University Coding Bootcamp instructors in partnership with edX.<br>
 
 # Heroku-Link
-Link Below <br>
+https://rays-tech-blog.herokuapp.com/
 
